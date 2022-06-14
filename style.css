@@ -8,8 +8,8 @@ header {
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    margin: 0 70px;
     align-items: center;
+    padding: 0 70px;
 }
 
 header ul {
@@ -34,6 +34,7 @@ header ul {
     padding: 40px 70px;
     display: flex;
     gap: 30px;
+    justify-content: space-evenly;
 }
 
 .section-one-info {
@@ -68,6 +69,10 @@ header ul {
     .section-one-info button {
         align-self: center;
     }
+
+    header {
+        padding: 0;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -92,4 +97,39 @@ header ul {
     .section-one img {
         max-width: 700px;
     }
+    
+   
+
+}
+
+.section-two {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section-two .items .item div {
+    border-width: 2px;
+    height: 100px;
+    width: 100px;
+    border-color: black;
+    border-style: solid;
+    align-self: center;
+}
+
+.section-two .items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 30px 70px;
+}
+
+.section-two .items .item {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two .items .item p {
+    max-width: 100px;
 }
