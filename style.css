@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    font-family:'Courier New', Courier, monospace; 
+}
+
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
