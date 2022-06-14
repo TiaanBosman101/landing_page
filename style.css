@@ -1,6 +1,9 @@
 body {
     margin: 0px;
     font-family:'Courier New', Courier, monospace; 
+    display: flex;
+    flex-direction: column;
+
 }
 
 
@@ -153,4 +156,59 @@ header ul {
 .quote-writer {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.section-four {
+    margin: 40px 90px;
+    background-color: #3882F6;
+    border-radius: 9px;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+    gap: 20px;
+}
+
+.section-four .section-four-info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.section-four h2 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.section-four p {
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.section-four button {
+    padding: 10px 40px;
+    border-radius: 7px;
+    color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 10px;
+    border-color: white;
+    border-style: solid;
+
+}
+
+footer {
+    align-self: stretch;
+    background-color: #1F2937;
+    margin: 0px;
+    padding: 10px;
+    justify-content: flex-end;
+    color: white;
+}
+
+footer p {
+    text-align: center;
 }
